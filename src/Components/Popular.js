@@ -9,7 +9,7 @@ const Popular = ({rendered}) => {
             return popularAnime?.map((anime) =>{
                 return (
                 <Link to={`/anime/${anime.mal_id}`} key = {anime.mal_id} alt="">
-                    <img className='Popular-img' src={anime?.images?.jpg?.large_image_url}/>
+                    <img className='Popular-img' src={anime?.images?.jpg?.large_image_url}  alt=""/>
                 </Link>
             )
             })
@@ -18,7 +18,7 @@ const Popular = ({rendered}) => {
             return SearchResults?.map((anime) =>{
                 return (
                 <Link to={`/anime/${anime.mal_id}`} key = {anime.mal_id} alt="">
-                    <img className='Popular-img' src={anime?.images?.jpg?.large_image_url}/>
+                    <img className='Popular-img' src={anime?.images?.jpg?.large_image_url}  alt=""/>
                 </Link>
             )
             })

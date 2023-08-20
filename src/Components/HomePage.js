@@ -43,7 +43,7 @@ function HomePage() {
             </div>
             <form action="" className='search-form' onSubmit={handleSubmit}>
                 <div className="input-control">
-                    <input type="text" value={search} placeholder="Search Anime" onChange={handlechange}/>
+                    <input type="text" value={search} placeholder="Search Anime" onChange={handlechange} alt="" />
                 </div>
             </form>
             <div className="filter-btn-popular-filter">
